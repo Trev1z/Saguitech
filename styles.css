@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.nota-fiscal {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+.nota-fiscal h3 {
+    margin-top: 0;
+}
